@@ -29,6 +29,7 @@ Files:-
     - 'test/y_test.txt': Test labels.
     At the same time, the column names of x_test and x_train are renamed with
     descriptive names obtained from 'features.txt'
+    
  (Step 1)
     - the test dataset (30%) and train dataset (70%) are then merged to form a 
       full dataset
@@ -36,6 +37,7 @@ Files:-
       described in "features.txt"
     - 2 more additional variables representing the "subject" and "activity" is 
       created after the merge
+      
  (Step 2)
     - extract only the columns that has 'mean()' and 'std()' in the variable 
       name (66 variables) + 2 other variables (activity and subject)
@@ -44,16 +46,19 @@ Files:-
     - we are not extracting the meanFreq() and angle mean variables as the 
       question specifically asked for mean and std deviations on the signals 
       only
+      
  (Step 3)
     - the activity codes (1-6) in the "activity" column are replaced with 
       descriptive names
     - the descriptive names are obtained from 'activity_labels.txt'
+ 
  (Step 4)
     - as the columns have been replaced with descriptive names in step (1),
       this step is easier 
     - I have also changed the "t" and "f" in the columns to something more
       descriptive based on 'features_info.txt'
     - 't' is changed to 'Time-' and 'f' is changed to 'Frequency-'
+ 
  (Step 5)
     - this step groups the data by activity and subject
     - it then calculates the MEAN of each measurement by the grouped data
