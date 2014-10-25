@@ -3,7 +3,7 @@ tidydataproject
 
 course project submission for coursera "get and clean data"
 
-Files:-
+There are 3 main files for this project:-
  
  (1)  run_analysis.R - 
  
@@ -81,6 +81,6 @@ Files:-
  
  (3)  CodeBook.md
 
- This is the CodeBook describing the variables.
+ This is the CodeBook describing the variables of output.txt.
  
  
