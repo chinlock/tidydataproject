@@ -1,5 +1,11 @@
 This is the Code Book for the dataset in output.txt.
 There are 68 variables described below.
+Apart from activity and subject, the rest of the 66 variables are mean
+values of the respective measurements done for a subject performing a 
+particular activity.  These 66 variables are selected from the original
+561 measurements based on the requirements of the course project.
+(For more information about the original 561 measurements, please refer
+to features.txt and features_info.txt in the original data set.)
 
 "activity"
         Activity the subject is engaged in.  Factor with 6 levels.
