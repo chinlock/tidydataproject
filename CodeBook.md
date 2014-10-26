@@ -6,6 +6,9 @@ particular activity.  These 66 variables are selected from the original
 561 measurements based on the requirements of the course project.
 (For more information about the original 561 measurements, please refer
 to features.txt and features_info.txt in the original data set.)
+How the transformations have been done according to course project requirements
+is decribed in "README.md".
+The transformation script is in "run_analysis.R"
 
 "activity"
         Activity the subject is engaged in.  Factor with 6 levels.
