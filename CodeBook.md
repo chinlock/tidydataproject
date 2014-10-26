@@ -20,7 +20,7 @@ The transformation script is in "run_analysis.R"
                 LAYING
 
 "subject"       
-        Code identifying the volunteer subject.  Integer.
+        Code identifying the volunteer subject.  Factor.
                 1-30
 
 "Time-BodyAcc-mean()-X"  
